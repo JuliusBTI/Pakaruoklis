@@ -1,6 +1,6 @@
 import { Header } from './components/header/Header';
 import { Lives } from './components/lives/Lives';
-
+import { Stand } from './components/stand/Stand';
 
 
 
@@ -11,7 +11,7 @@ function App() {
       <>
     <Header />
     <Lives/>
-     
+    <Stand/>
      
       </>
   )
