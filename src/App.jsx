@@ -11,8 +11,9 @@ function App() {
       <>
     <Header />
     <Lives/>
+    <div>
     <Stand/>
-     
+    </div>
       </>
   )
 }
