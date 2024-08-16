@@ -5,7 +5,7 @@ export function Stand() {
     return (
         
     <div className='stand'>
-        <img className="stand" src="images/stand.png" alt="" />
+        <img className="stand1" src="images/stand.png" alt="" />
         <img className="head" src="images/head.png" alt="" />
         <img className="body1" src="images/body.png" alt="" />
         <img className="l-heand" src="images/l-heand.png" alt="" />
