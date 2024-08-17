@@ -12,7 +12,6 @@ export function Lives() {
             <img className='logo' src="images/hart.png" alt="" />
             <img className='logo' src="images/hart.png" alt="" />
             <img className='logo' src="images/hart.png" alt="" />
-            <img className='logo' src="images/hart.png" alt="" />
             
         </div>
         <div>

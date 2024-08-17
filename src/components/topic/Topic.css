@@ -1,0 +1,17 @@
+.top { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.topic {
+    margin-top: 50px;
+    border: 2px solid green;
+    background-color: azure;
+    font-size: 30px;
+    color:blue;
+    border-radius: 5px;
+    
+}   

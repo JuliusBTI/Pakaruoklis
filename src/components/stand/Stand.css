@@ -2,5 +2,49 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    margin-left: -40px ;
+}
+
+.stand1 {
+    position: relative;
+    background-color: transparent;
+    margin-left: 50px;
+}
+
+.head {
+    position: absolute;
+    background-color:transparent;
+    margin-bottom: 142px;
+    margin-left: 139px;
+}
+
+.body1 {
+    position: absolute;
+    background-color: transparent;
+    margin-left: 139px;
+    margin-bottom:30px ;
+}
+
+.l-heand {
+    position: absolute;
+    margin-left:197px ;
+    margin-bottom:50px ;
+}
+
+.r-heand {
+    position: absolute;
+    margin-left: 83px;
+    margin-bottom: 60px;
+}
+
+.l-leag {
+    position: absolute;
+    margin-left: 197px;
+    margin-top:55px ;
+}
+
+.r-leag {
+    position: absolute;
+    margin-left: 83px;
+    margin-top: 47px;
 }
