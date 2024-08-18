@@ -1,0 +1,36 @@
+.keyButon {
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(75px,1fr)) ;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.btn {
+    width: 50px;
+    height: 60px;
+    border: 3px solid black;
+    background: none;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: .5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+
+.btn.active {
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+}
+
+.btn.inactive {
+    opacity: .3;
+}
+
+
+.btn:hover(:disabled),
+.btn:focus {
+    background-color: hsl(200, 100%, 75%)
+}
