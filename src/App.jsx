@@ -14,21 +14,18 @@ function getWord() {
 
 
 function App() {
- const [wordToGuess, setWordToGuess] = useState(getWord)
- const [guessedLetters, setGuessedLetters] = useState<string[]>([])
- const incorrectLetters = guessedLetters.filter(letter => !wordToGuess.includes(letter))
 
 
-
-
-
+  
+  
   return (
       <>
     <Header/>
     <Lives/>
     <Topic topic="Capitals"/>
-    <Stand numberOfGuesses = {incorrectLetters.length}/>
+    <Stand />
     <Word1/>
+    
     <br></br>
     <div style={{alignSelf: "stretch"}}>
     <Keyboard/>
